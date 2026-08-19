@@ -11,6 +11,9 @@ assignment3_1/
 
 assignment3_2/
 └── ControlAssignment.java  # Control flow demo: divisibility, transport by budget, Chinese zodiac
+
+assignment3_4/
+└── DataStructuresAssignment.java  # Collections demo: ArrayList, LinkedList, HashMap, HashSet
 ```
 
 ### assignment3_1/SimpleCalculator.java
@@ -34,6 +37,13 @@ A console-based control flow demonstration that runs three mini tasks using one 
 - Budget ride selector: recommends transport based on budget ranges (`taxi`, `train`, `bus`, or `walk`).
 - Chinese zodiac lookup: maps a birth year to one of the 12 zodiac signs and handles invalid year input.
 
+### assignment3_4/DataStructuresAssignment.java
+
+A console-based collections demonstration that runs three mini tasks:
+- Product inventory (`ArrayList`): builds a list of products, adds two, removes one, then prints the count and contents.
+- Recently viewed items (`LinkedList`): simulates a "recently viewed" queue capped at 5 items, removes the oldest as new ones are added.
+- Student grades and course codes (`HashMap`/`HashSet`): stores student-to-grade lookups, looks up a grade by name, and adds course codes to a set to demonstrate uniqueness (duplicates are rejected).
+
 ## Running
 
 Each file is a standalone class with its own `main` method.
@@ -49,4 +59,10 @@ From inside `assignment3_2/`:
 
 ```bash
 javac ControlAssignment.java && java ControlAssignment
+```
+
+From inside `assignment3_4/`:
+
+```bash
+javac DataStructuresAssignment.java && java DataStructuresAssignment
 ```

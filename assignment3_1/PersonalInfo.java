@@ -68,7 +68,7 @@ public class PersonalInfo
     }
 
     /*
-     * Thsi is a demo method to make PersonalInfo object with sample values
+     * This is a demo method to make PersonalInfo object with sample values
      * and prints out its fields.
      */
     public static void main(String[] args)
